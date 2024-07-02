@@ -2,9 +2,10 @@
   "name": "babelprac",
   "version": "1.0.0",
   "description": "\"babel을 연습합니ㄷ.\"",
-  "main": "app.js",
+  "main": "./dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "author": "KimInteger",
   "license": "MIT",
