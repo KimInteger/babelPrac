@@ -32,3 +32,4 @@ catch (error) {
         console.error('Unknown Error');
     }
 }
+//# sourceMappingURL=class.js.map
