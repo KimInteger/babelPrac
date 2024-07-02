@@ -27,11 +27,10 @@ try {
 
   const resultWithFloat : number = add(2.5,3);
   console.log(resultWithFloat);
-} catch (error: unknown) {
-  // catch에 error도 타입을 지정해주어야 한다.
-  if(error instanceof Error) {
+} catch (error:unknown) {
+  if(error instanceof Error){
     console.error(error.message);
   } else {
-    console.error("An unknown error occurred");
+    console.error('Unknown Error');
   }
 }
