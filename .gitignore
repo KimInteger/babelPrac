@@ -1,9 +1,12 @@
 node_modules/
 
-.vscode
-
-tsconfig.json
-
-package-lock.json
+.vscode/
 
 *.map
+
+dist/
+
+build/
+
+.env
+
