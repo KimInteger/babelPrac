@@ -12,3 +12,18 @@ function add(a:number, b: number) : number {
 }
 
 // 실행부분 ------------------------------------------------
+
+try {
+  const result : number = add(2,3);
+  console.log(result); //5
+
+
+  const resultWithFloat : number = add(2.5,3);
+  console.log(resultWithFloat);
+} catch (error: unknown) {
+  if(error instanceof Error) {
+    console.error(error.message);
+  } else {
+    console.error("An unknown error occurred");
+  }
+}
